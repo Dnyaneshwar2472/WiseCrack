@@ -4,34 +4,32 @@ export default function About() {
       <h1 className="about-title">About WiseCrack</h1>
 
       <p className="about-text">
-        WiseCrack is your personal hub for mood-based wisdom, humor, and creative
-        one-liners. Whether you're feeling inspired, low, energetic, confused, or
-        simply bored — WiseCrack generates a line that perfectly fits your vibe.
+        WiseCrack is a mood-based quote and advice generator built to match your
+        emotions with clever, inspiring, and entertaining lines. Whether you're
+        looking for motivation, humor, deep thoughts, or just something to smile
+        about — WiseCrack gives you the perfect “crack” for the moment.
+      </p>
+
+      <h2 className="about-subtitle">✨ Features</h2>
+
+      <ul className="about-features">
+        <li>🎭 <strong>Mood Selection</strong> – Choose a mood like Life, Funny, Energetic, or Inspirational and get quotes matching your vibe.</li>
+        <li>🔄 <strong>One-Tap Refresh</strong> – Instantly get a brand-new crack with one click.</li>
+        <li>❤️ <strong>Save Favorites</strong> – Store your best quotes so they never disappear, even after refreshing.</li>
+        <li>⚡ <strong>Fast & Clean UI</strong> – Simple, modern design built for quick inspiration.</li>
+        <li>📱 <strong>Fully Responsive</strong> – Works perfectly on mobile, tablet, and desktop.</li>
+      </ul>
+
+      <h2 className="about-subtitle">👨‍💻 Created By</h2>
+      <p className="about-text">
+        WiseCrack is created by <strong>Dnyaneshwar Jagdale</strong> as part of a
+        creative mini-project using modern React, API integration, and clean UI
+        principles. The project is built with passion to bring small moments of
+        joy, clarity, and motivation to users.
       </p>
 
       <p className="about-text">
-        The app uses mood-driven categories to fetch unique, fun, and meaningful
-        advice. With a simple tap, you get a fresh “crack” — a mix of creativity,
-        humor, and clever thought. If something resonates, you can easily save it
-        to your favorites and revisit it anytime.
-      </p>
-
-      <p className="about-text">
-        WiseCrack is designed to be fast, clean, and enjoyable. No clutter,
-        no complications — just quick moments of insight and entertainment.
-        From deep life thoughts to witty humor, WiseCrack has something for
-        every mood.
-      </p>
-
-      <p className="about-text">
-        This project is built using modern React, API integration, and a
-        smooth UI — aiming to combine simplicity with fun. Your saved favorite
-        cracks stay stored even after you refresh or reopen the app.
-      </p>
-
-      <p className="about-text">
-        Whether you need motivation, laughter, or a smart line to think about —
-        WiseCrack is here to brighten your moment.
+        Thank you for using WiseCrack — may every crack brighten your day! 🌟
       </p>
     </div>
   );
