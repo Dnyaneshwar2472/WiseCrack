@@ -1,0 +1,69 @@
+/* WRAPPER */
+.mood-wrapper {
+  width: 100%;
+  padding: 30px 20px;
+  margin-top: 10px;
+}
+
+/* Title */
+.mood-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* Grid layout */
+.mood-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* spacing between buttons */
+  padding: 10px; /* space around whole grid */
+}
+
+@media (min-width: 768px) {
+  .mood-grid {
+    grid-template-columns: repeat(4, 1fr); /* exactly 4 moods */
+    gap: 24px;
+    padding: 20px 40px; /* bigger spacing for large screens */
+  }
+}
+
+/* Mood button */
+.mood-btn {
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 18px;
+  padding: 28px 0;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+  transition: all 0.25s ease-in-out;
+  width: 100%;      /* ensure equal width */
+  height: 120px;     /* ensure equal height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hover */
+.mood-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+/* Mood Label */
+.mood-label {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* Active mood (selected) */
+.mood-active {
+  border: 2px solid #2563eb !important;
+  background: #e0ecff !important;
+  box-shadow: 0 6px 14px rgba(37, 99, 235, 0.3) !important;
+  transform: scale(1.08);
+}

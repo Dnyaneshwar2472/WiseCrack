@@ -1,0 +1,28 @@
+.home-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: #f3f3f3;
+}
+
+.home-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.home-generate-btn {
+  padding: 14px 34px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  font-size: 18px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.home-generate-btn:hover {
+  background: #15803d;
+}

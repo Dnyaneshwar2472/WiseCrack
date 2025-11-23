@@ -1,0 +1,51 @@
+.quote-card-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.quote-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 700px;
+  width: 100%;
+  font-size: 22px;
+  text-align: center;
+  position: relative;
+  border: 1px solid #d4d4d4;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+}
+
+.favorite-btn {
+  position: absolute;
+  bottom: 18px;
+  right: 20px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #666;
+  transition: 0.2s;
+}
+
+.favorite-btn:hover {
+  color: red;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .quote-card {
+    font-size: 18px;
+    padding: 20px;
+  }
+}
+.favorite-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.favorite-active {
+  transform: scale(1.2);
+}
